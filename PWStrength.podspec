@@ -6,5 +6,5 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.author   = { 'laiso' => 'laiso@lai.so' }
   s.source   = { :git => 'https://github.com/laiso/PWStrength.git', :tag => "v#{s.version}" }
-  s.source_files = 'PWStrength.h', 'PWStrength.m'
+  s.source_files = 'PWStrength/*.{h,m}'
 end
